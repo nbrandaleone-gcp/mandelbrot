@@ -1,0 +1,13 @@
+name: mandelbrot
+version: 0.1.0
+
+authors:
+  - Nick Brandaleone <nbrand@mac.com>
+
+targets:
+  mandelbrot:
+    main: src/mandelbrot.cr
+
+crystal: '>= 1.12.2'
+
+license: MIT
