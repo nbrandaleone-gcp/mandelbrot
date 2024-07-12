@@ -16,9 +16,9 @@ to run the Crystal code directly  `make run`.
 The code will run a local web server on port 8080.
 
 ## Development
-### https://crystal-lang.org/reference/1.13/man/crystal/index.html
+https://crystal-lang.org/reference/1.13/man/crystal/index.html
 
-How to run your code
+How to run your code:
 
 ```bash
 crystal run mandelbrot.cr
