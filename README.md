@@ -1,7 +1,6 @@
 # mandelbrot
 
-Nick Brandaleone
-July 2024
+Nick Brandaleone - July 2024
 
 This program generates an ascii output of the Mandelbrot Set.
 Based upon an example, from the Crystal docs: https://github.com/crystal-lang/crystal/blob/master/samples/mandelbrot.cr
