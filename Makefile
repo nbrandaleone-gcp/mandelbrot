@@ -38,7 +38,6 @@ deploy:
 	@echo "Deploying to Cloud Run"
 	@echo "======================"
 	gcloud run deploy $(TARGET) \
-	--allow-unauthenticated \
 	--image $(IMAGE_URI) \
 	--allow-unauthenticated \
 	--region us-central1 \
@@ -85,7 +84,7 @@ logs/stream:
 ## Delete Cloud Run service and container
 clean/cloud:
 	@echo "Stopping and deleting Cloud Run service"
-	gcloud run services delete $(TARGET)
+	gcloud run services delete $(TARGET) --region us-central1
 	@echo "Deleting container image from Registry"
 	gcloud container images delete $(IMAGE_URI) --force-delete-tags
 # gcloud artifacts repositories delete
